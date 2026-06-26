@@ -5,6 +5,9 @@
     "moduleResolution": "bundler",
     "target": "ES2023",
     "strict": true,
+     "outDir": "dist",
+    "rootDir": ".",
+    "declaration": true,
     "esModuleInterop": true,
     "ignoreDeprecations": "6.0",
     "types": ["node"]
