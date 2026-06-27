@@ -1,6 +1,6 @@
 import validator from "validator"
 import type { Request,Response } from 'express';
-import {prisma} from "@repo/db"
+import { prisma } from "@repo/db";
 import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'
 

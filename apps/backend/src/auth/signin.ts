@@ -26,7 +26,7 @@ export const SignIn=async(req:Request,res:Response)=>{
                 message:'user not found'
             })
         }
-        const isPassMatch=await bcrypt.compare(password,user.password)
+        const isPassMatch=await bcrypt.compare(password,user.password !)
         if(!isPassMatch){
             return res.json({
                 success:false,
